@@ -11,3 +11,8 @@ variable "agent_count" {
   default = 0
   type    = number
 }
+
+variable "kubeconfig" {
+  default = ""
+  type = string
+}
